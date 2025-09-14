@@ -1,0 +1,43 @@
+Membuat Extensi : https://github.com/mit-cml/appinventor-sources
+
+Perlengkapan:
+- Java 11 JDK (Sudah Terinstall)
+- Apache Ant (Sudah Terinstall)
+- Kode Sumber Appinventor github (Sudah Terunduh)
+- git bash GUI (Sudah Terinstall)
+
+
+Download Appinventor Local dengan 
+-> Buka git bash GUI terminal
+
+Ketika perintah ini
+-> git clone https://github.com/mit-cml/appinventor-sources.git
+
+Info Ukuran File
+size -> 1.2 GB Full / 400 MB Untuk Ekstensi
+
+Setelah terunduh lengkap pergi ke folder appinventor-sources dengan
+1. -> cd appinventor-sources
+2. -> cd appinventor
+
+Copy folder components dan lib, Paste ke folder appinventor, Overwrite
+setelah berada di folder appinventor (cd appinventor)
+
+ketik perintah
+- > ant extensions -Dproguard=1
+
+
+
+
+
+Perintah Build: ant extensions -Dproguard=1
+
+Tunggu sampai Build Successful dan Ekstensi terbuat 
+1.-> Buka folder components
+2.-> Buka folder build
+3.-> Buka folder extensions
+
+terdapat 3 ekstensi
+1. BimaAix
+2. SupportedLockTask
+3. Countdown
